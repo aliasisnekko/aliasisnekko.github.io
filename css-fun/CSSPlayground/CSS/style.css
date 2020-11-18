@@ -1,0 +1,40 @@
+header {
+    background-color: #404040;
+    color: white;
+}
+
+main {
+    background-color: #D5D8D9;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    height: 2px;
+    width: 40px;
+}
+
+section {
+    background-color: white;
+}
+
+footer {
+    background-color: #404040;
+    color: white;
+}
+
+a {
+    color: #404040;
+    font-weight: bold;
+}
+
+.blue {
+    color: #30ACEC;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
