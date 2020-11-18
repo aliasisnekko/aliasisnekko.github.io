@@ -1,0 +1,66 @@
+/***Tag Selectors***/
+
+* {
+    text-align: center;
+    list-style: none;
+}
+
+h1 {
+    color: red;
+}
+
+body {
+    background-color: #ff4c4c;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: darkred;
+    border-width: 5px;
+    height: 2px;
+    width: 40px;
+}
+
+p {
+    word-spacing: 7px;
+    color: crimson;
+    font-weight: bold;
+}
+
+a {
+    color: #404040;
+    font-weight: bold;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+
+/***Class Selectors***/
+
+.bacon {
+    background-color: #72fb3c;
+}
+
+.sports {
+    background-color: red;
+}
+
+
+/***ID Selectors****(more specific so it overrides above selector)***/
+
+#heading {
+    color: orange;
+}
+
+#para {
+    color: aliceblue;
+    font-weight: 200;
+}

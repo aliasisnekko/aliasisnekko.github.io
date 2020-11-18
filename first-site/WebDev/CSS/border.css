@@ -1,0 +1,21 @@
+body {
+    background-color: paleturquoise;
+    margin: 0px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+div {
+    border: solid;
+    border-width: 15px 15px 15px 0px;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.top {
+    background-color: #333456;
+}
