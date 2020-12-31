@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Title</title>
+</head>
+<style>
+    body {
+        background-color: #7c1dd4;
+        color: #fff;
+    }
+    
+    div {
+        padding: 0.5em;
+    }
+</style>
+
+<body>
+    <div class="container-fluid text-center">
+        <div>
+            <h1 id='heading'>JavaScript</h1>
+            <i id='toggle' class="fa fa-circle btn-outline-primary w-auto btn-block" onclick="reset();" aria-hidden="true"></i>
+            <p id="para1">Lorem ipsum dolor.</p>
+            <p id="para2">lorem ipsum dolor.</p>
+            <input type="text" id="userInput" value="">
+            <button class='btn btn-success' onclick="changeText()" class='btn-danger' type="submit">Click me to change above text</button>
+        </div>
+
+
+        <div class="btn-sm">
+            <button onclick="changeToBlue();" class="btn btn-primary" id="button1">Change Background to Blue</button>
+            <button onclick="changeToYellow();" class="btn btn-warning" id="button2">Change Background to Yellow</button>
+            <button onclick="changeToRed();" class="btn btn-danger" id="button3">Change Background to Red</button>
+        </div>
+
+
+        <div class="btn-sm">
+            <button onclick="changeAll();" class="btn" type="submit">Click Me</button>
+        </div>
+    </div>
+
+
+    <script src="DOM_Fun.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
