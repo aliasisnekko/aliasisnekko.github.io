@@ -1,0 +1,28 @@
+body {
+    font-size: 15pt;
+    color: black;
+    background-color: turquoise;
+    text-align: center;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+header {
+    color: black;
+}
+
+.button {
+    color: blue;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 5px;
+    height: 2px;
+    width: 40px;
+}
