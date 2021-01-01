@@ -9,10 +9,11 @@ document.getElementsByClassName('btn')[4].style.backgroundColor = '#a7c5eb'
 
 var doc = document.body;
 
-function reset() {
 
+function reset() {
     doc.style.backgroundColor = "#7c1dd4";
     document.querySelector('h1').innerHTML = "This Page Is Styled Using JavaScript";
+    document.querySelector('#para2').innerHTML = "The page has been refreshed";
 }
 
 function changeText() {
@@ -36,6 +37,6 @@ function changeToRed() {
 }
 
 function changeAll() {
-    document.body.style.backgroundColor = '#a7c5eb';
+    doc.style.backgroundColor = '#a7c5eb';
     document.querySelector('h1').innerHTML = "Hello World!";
 }
