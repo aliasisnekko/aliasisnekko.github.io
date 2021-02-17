@@ -40,8 +40,8 @@ function changeAll() {
     doc.style.backgroundColor = '#a7c5eb';
     document.querySelector('h1').innerHTML = "Hello World!";
     document.getElementsByClassName("btn")[0, 1, 2, 3, 4, 5, 6].classList.add("btn-dark");
-    document.querySelectorAll("#para1, #para2").classList.add("text-light");
-    document.getElementsByTagName("h1").classList.add("text-dark");
-    document.getElementById("sorry").innerHTML = "Things are now annoyingly grey, sorry!";
-    document.getElementById("white").classList.add("btn-light");
+    document.querySelectorAll("p")[0, 1].classList.add("text-light");
+    document.querySelector("h1").classList.add("text-dark");
+    document.querySelectorAll("#sorry").innerHTML = "Things are now annoyingly grey, sorry!";
+    document.querySelectorAll("#white").classList.add("btn-light");
 }
