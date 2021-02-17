@@ -36,7 +36,11 @@ function changeToRed() {
 function changeAll() {
     document.body.style.background = '#dddddd';
     document.getElementById('para1').style.color = '#222831'; //!!!IMPORTANT!!!
-
+    document.getElementsByClassName("btn").addClass("btn-dark");
+    document.getElementsByTagName("p").addClass("text-dark");
+    document.getElementsByTagName("h1").addClass("text-dark");
+    document.getElementById("sorry").innerHTML = "Things are now annoyingly grey, sorry!";
+    document.getElementById("white").addClass("btn-light");
 }
 
 //when using the plural method an array is echo'd to the console / aka all the selected elements get turned into an array
