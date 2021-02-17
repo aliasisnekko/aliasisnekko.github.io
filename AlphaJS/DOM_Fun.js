@@ -39,9 +39,9 @@ function changeToRed() {
 function changeAll() {
     doc.style.backgroundColor = '#a7c5eb';
     document.querySelector('h1').innerHTML = "Hello World!";
-    document.getElementsByClassName("btn").addClass("btn-dark");
-    document.getElementsByTagName("p").addClass("text-dark");
-    document.getElementsByTagName("h1").addClass("text-dark");
+    document.getElementsByClassName("btn").classList.add("btn-dark");
+    document.getElementsByTagName("p").classList.add("text-dark");
+    document.getElementsByTagName("h1").classList.add("text-dark");
     document.getElementById("sorry").innerHTML = "Things are now annoyingly grey, sorry!";
-    document.getElementById("white").addClass("btn-light");
+    document.getElementById("white").classList.add("btn-light");
 }
